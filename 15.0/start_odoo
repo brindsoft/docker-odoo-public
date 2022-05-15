@@ -1,0 +1,5 @@
+#!/bin/bash
+## "$@" would allow all the parameters used to start file to command below
+## eg : -u base -d test_db
+/opt/odoo/odoo/odoo-bin -c /opt/odoo/etc/odoo.conf "$@"
+
